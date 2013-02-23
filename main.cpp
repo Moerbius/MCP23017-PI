@@ -1,3 +1,10 @@
+/*
+    This example shows how to make a running lights with
+    MCP23017 for Raspberry PI
+
+    Version 0.1
+*/
+
 #include "mcp23017pi.h"
 #include <stdio.h>
 
