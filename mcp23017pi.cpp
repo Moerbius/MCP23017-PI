@@ -47,7 +47,7 @@ void MCP23017PI::pinMode(int pin, int mode) {
 	mode = !mode;
 	if (mode) _IODIR |= 1 << pin;
 	else _IODIR &= ~(1 << pin);
-	writeRegister(MCP23017_IODIR, (word)_IODIR);
+	writeRegister(MCP23017PI_IODIR, (word)_IODIR);
 }
 
 //TODO: implement and test
@@ -84,7 +84,7 @@ word MCP23017PI::digitalWordRead() {
 }
 void MCP23017PI::digitalWordWrite(word w) {
 	_GPIO = w;
-	writeRegister(MCP23017_GPIO, (word)_GPIO);
+	writeRegister(MCP23017PI_GPIO, (word)_GPIO);
 }
 
 void MCP23017PI::inputPolarityMask(word mask) {
