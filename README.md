@@ -10,7 +10,7 @@ This library was ported from the original Arduino library wich can be found here
 To achieve this, BCM2835 library must be installed and can be found here: http://www.open.com.au/mikem/bcm2835/index.html.
 Simply follow the instalation steppes.
 
-The MCP23017 datasheet can be found in: http://ww1.microchip.com/downloads/en/devicedoc/21952b.pdf.
+The MCP23017 datasheet can be found in: http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf.
 
 To compile simply execute the followinf command:
 
